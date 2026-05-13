@@ -1,0 +1,51 @@
+#aquamarine {
+    color: white;
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 30px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+#pink {
+    color: white;
+    background-color: rgb(214, 15, 221);
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 30px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+#blue {
+    color: white;
+    background-color: rgb(17, 17, 229);
+    text-align: center;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 30px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}

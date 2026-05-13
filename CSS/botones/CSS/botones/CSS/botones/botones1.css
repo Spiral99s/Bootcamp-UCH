@@ -1,0 +1,38 @@
+.search{
+    background-color: rgb(160, 158, 158);
+    color: black;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.plus{
+    background-color: orangered;
+    color: white;
+    font-size: 35px;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.create{
+    background-color: rgb(75, 169, 247);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    place-items: center;
+    box-shadow: 0 20px 20px 0 gray;
+    border-style: none;
+}

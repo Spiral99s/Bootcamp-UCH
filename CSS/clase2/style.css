@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR+Guides&display=swap');
+
+p{
+    color:aquamarine;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-size: 20 px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+}
+
+body{
+    background-color: bisque;
+    background-image: url("/CSS/clase2/media/DSC00777.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: "cossette";
+}
+
+h3{
+    color: antiquewhite;
+    text-align: center;
+    background-attachment: scroll;
+    font-family: "Playwrite AR Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boxModel{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin: 40px 70px 20px 30px;
+    padding: 20px;
+    border-width: 3px;
+    border-color: blue;
+    border-style: dashed;
+    border-top: dotted 3px rgb(51, 153, 83);
+    overflow:auto;
+    border-radius: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    shape-outside: margin-box;
+}
+
+
+@font-face {
+    font-family: "cossette";
+    src: url("/CSS/clase2/media/Cossette_Texte\,Playwrite_AR_Guides/PlaywriteARGuides-Regular.ttf");
+}
+
+/*para importar fuentes en google font, code, se una @import, se usa solo ese url en el css y luego se pega solo los atributos font del css class*/

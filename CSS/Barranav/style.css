@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    margin: 10px;
+    font-family: "Arial", sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    background-color: crimson;
+    color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    text-decoration: white;
+    justify-content: flex-end;
+    align-items:center;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #fff;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: "cossette";
+    src: url("/CSS/Core Tarjet Usuario/media/Roboto/CSS/Core Tarjeta Usuario/media/Roboto/Roboto-VariableFont_wdth,wght.ttf");
+}

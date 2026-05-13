@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+#scifi {
+    background-color: rgb(65, 117, 222);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#cine {
+    background-color: rgb(212, 83, 83);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#videojuegos {
+    background-color: rgb(226, 226, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 50px;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(237, 141, 240);
+    margin: 0;
+    padding: 20px;
+}
