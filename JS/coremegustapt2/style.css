@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+nav{
+    background-color: rgb(34, 33, 33);
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:140%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto 20% auto 20%;
+}
+
+.avatar{
+    flex: 1;
+    max-width: 180px;
+    height: 90%;
+    max-height: 600px;
+    margin: 65px 10px 0 0;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content:center;
+    align-items:start;
+}
+
+.avatar>h2{
+    font-family:Arial, Helvetica, "sans-serif";
+    white-space: nowrap;
+    font-size:140%;
+    font-weight:570;
+    text-align: center;
+    margin: 0 10px -17px -10px;
+}
+
+img{
+    max-width: 100px;
+    height: 90%;
+    max-height: 100px;
+    margin: 20px 20px 50px 20px;
+}
+
+.feed{
+    flex:2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feed>h1{
+    margin-left: 25px;
+}
+.persona{
+    margin: 10px auto 20px 25px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 105%;
+    max-width: 1200px;
+    height: 90%;
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(242, 241, 241);
+}
+
+#meGusta1{
+    background-color: rgb(245, 212, 83);
+    border-radius: 5px;
+    padding: 3px;
+    width: 70px;
+    height: 35px;
+    margin-left: 10px;
+    border: 0 none;
+    font-weight: bolder;
+    font-size: 90%;
+}
+
+
+#meGusta2{
+    background-color: rgb(245, 212, 83);
+    border-radius: 5px;
+    padding: 3px;
+    width: 70px;
+    height: 35px;
+    margin-left: 10px;
+    border: 0 none;
+    font-weight: bolder;
+    font-size: 90%;
+}
+
+#meGusta3{
+    background-color: rgb(245, 212, 83);
+    border-radius: 5px;
+    padding: 3px;
+    width: 70px;
+    height: 35px;
+    margin-left: 10px;
+    border: 0 none;
+    font-weight: bolder;
+    font-size: 90%;
+}
+
+.texto{
+    font-family:Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+.texto>p{
+    font-size: 90%;
+    font-weight:normal;
+    color: #202020;
+}
+
+.boton{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    justify-content:right;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    font-size: 90%;
+}

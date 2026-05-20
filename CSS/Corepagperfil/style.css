@@ -41,7 +41,7 @@ main{
 }
 
 .barra{
-       list-style-type: none;
+    list-style-type: none;
     text-decoration: white;
     overflow: hidden;
     display: flex; 

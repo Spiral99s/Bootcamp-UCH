@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://127.0.0.1:5500/JS/coreevento/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="./Petlopedia_files/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/JS/coreevento/index.html#">Petlopedia</a>
+        </div>
+        <div class="barra">
+            <div class="buscarmascota">
+                <input type="text" id="mascota" name="mascota" placeholder="Buscar mascota">
+            </div>
+        </div>
+        <div class="sesioncontainer">
+            <button id="sesionCambiar">Iniciar Sesión</button>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section id="gato">
+                <h1>Gato Atigrado</h1>
+                <div class="descripcion">
+                    <em>sustantivo</em>
+                    <p>Plural: Gatos Atigrados</p>
+                    <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca de "M" en su frente</p>
+                </div>
+                <div class="like">
+                    <button id="meGusta">me gusta</button>
+                </div>
+                <div class="overlay">
+                    <div class="popup">
+                        <h2>127.0.0.1:5501 says</h2>
+                        <p>Gato Atigrado was liked</p>
+                    </div>
+                </div>
+            </section>
+            <section id="perro">
+                <h1>Golden Retriever</h1>
+                <div class="descripcion">
+                    <em>sustantivo</em>
+                    <p>Plural: Golden Retrievers</p>
+                    <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos</p>
+                </div>
+                <div class="like">
+                    <button id="meGusta">me gusta</button>
+                </div>
+                <div id="popupOverlay" class="popup-overlay">
+                    <div class="popupBox">
+                        <p>Golden Retriever was liked</p>
+                        <button id="closeBtn">Ok</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="side">
+            <section id="agregar">
+                <div class="def">
+                    <p>Petlopedia está definida por TI</p>
+                </div>
+                <div class="agregardef">
+                    <button id="botonAgregar">Agregar Definición</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./Petlopedia_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

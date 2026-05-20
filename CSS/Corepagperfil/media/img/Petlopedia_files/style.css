@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    max-width: 2000px;
+    max-height: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+
+.navbar {
+    background-color: rgb(165, 155, 157);
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    height: 80px;
+    width: 90%;
+    max-width: 2000px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto 20px auto;
+    justify-content: space-between;
+
+}
+
+.buscarmascota{
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    width: 450px;      ;  
+    padding: 0 10px;
+}
+
+.sesioncontainer { 
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.logo a {
+    color: rgb(46, 45, 45);
+    text-decoration: none;
+    font-size: 24px;
+    justify-content: flex-start;
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar > div {
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+
+.barra{
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#sesionCambiar {
+    font-size: 100%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px 1px rgb(84, 82, 82);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 18px;
+    margin: 0;
+    background-color: rgb(44, 121, 214);
+    color: #fff;
+    display: flex;
+}
+
+.container{
+    flex: 2;
+    padding: 10px;
+    justify-content: center;
+    max-width: 2000px;
+    margin: 0 auto;
+    margin-left: -20px;
+}
+
+.side {
+    flex: 1;
+    padding: 20px 0;
+    margin: 0 auto;
+    justify-content:center;
+    max-width: 2000px;
+    margin-right: 20px;
+}         
+
+#gato{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 2000px;
+    height: 90%;
+    max-height: 190px;
+    margin: 10px auto;
+    overflow: hidden;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#perro{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 2000px;
+    height: 90%;
+    max-height: 190px;
+    margin: 10px auto;
+    overflow: hidden;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#agregar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    max-height: 100px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#meGusta{
+    background-color: rgb(245, 235, 196);
+    border-radius: 5px;
+    padding: 3px;
+    width: 100px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(84, 82, 82);
+}
+
+#botonAgregar{
+    background-color: rgb(43, 152, 54);
+    padding: 3px;
+    width: 200px;
+    margin-top: 10px;
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px rgb(184, 184, 184);
+}
+
+h1{
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+div > p {
+    margin: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+em{
+    margin: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#closeBtn {
+    background-color: rgb(183, 67, 67);
+    border-radius: 5px;
+    padding: 3px;
+    width: 50px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px 1px rgb(84, 82, 82);
+}
+
+.popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupBox{
+    background-color: #fff;
+    border: 2px solid black;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+}
+
+.popup-overlay.active {
+    pointer-events: auto;
+}
+
+.closeBtn {
+    background-color: #DC3545;
+    margin-top: 15px;
+}
